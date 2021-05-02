@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background:url("images/background.jpg");
+            background-size: 100% 100%;
+        }
+        button{
+            background-color: black;
+            color:white;
+            font-size: medium;
+            width:100px;
+            height: 40px;
+            border-radius: 10px;
+
+        }
+        button:hover{
+            box-shadow: 0 0 10px 5px palevioletred;
+        }
+        h1,h2,h3{
+            text-align: center;
+            color:peru;
+            text-shadow:  9px 9px 9px gray;
+            
+        }
+    </style>
+</head>
+<body>
+
+    
+    <h1>Martial Arts!!!</h1>
+    <h2>Your favourite Martial arts Game is here!!</h2>
+    <h3>Just  Play and Enjoy!! it</h3>
+    <img src="images/martialarts.jpg" width="100%" height="500px"/>
+    <div class="body">
+    <canvas id="my-canvas"  width="1000px" height="600px" ></canvas>
+    <br>
+    <br>
+    <button  id="kick">Kick</button>&nbsp;
+    &nbsp;<button id="punch">Punch</button>&nbsp;
+    &nbsp;<button id="forward">Forward</button>&nbsp;
+    &nbsp;<button id="backward">Backward</button>&nbsp;
+    &nbsp;<button id="block">Block</button>&nbsp;
+</div>
+    <script src="martial_arts_canvas.js" defer></script> 
+</body>
+</html>
+
